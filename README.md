@@ -138,6 +138,15 @@ You usually won’t see this warning again for the same file after the first run
 
 ---
 
+## 💬 Feedback & Feature Requests
+
+If you'd like to suggest a feature, share feedback, or request improvements, feel free to reach out to us anytime.
+
+📧 Email: [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
+Your input is always welcome and appreciated.
+
+---
+
 ## 📄 License
 
 This software is free to use, share, and distribute.  
