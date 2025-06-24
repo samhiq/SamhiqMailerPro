@@ -126,10 +126,21 @@ You usually won’t see this warning again for the same file after the first run
 
 ---
 
+## 🛠️ Need Help with Modifications?
+
+You are free to use, modify, and distribute Samhiq Mailer.  
+If you would like **assistance with customization** or want to request **new features**, feel free to contact us:
+
+📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)
+
+We’re happy to hear your ideas and support your use case.
+
+---
+
 ## 👤 Developer
 
 **Md Sameer Iqbal (Samhiq)**  
-📍 Simri Bakhtiyarpur, Saharsa, Bihar, India  
+📍 Bihar, India  
 📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
 🔗 [GitHub: @samhiq](https://github.com/samhiq)
 
@@ -137,20 +148,3 @@ You usually won’t see this warning again for the same file after the first run
 > 🇮🇳 Proudly developed in India.
 
 ---
-
-## 💬 Feedback & Feature Requests
-
-If you have any suggestions, feature requests, or feedback for improvement, you are welcome to contact us anytime.
-
-📧 Email: [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)
-
----
-
-## 📄 License
-
-This software is free to use, share, and distribute for both personal and commercial purposes.  
-However, **modifying, customizing, or repackaging** the application is **not permitted without prior permission** from the developer.
-
-If you need to modify or customize any part of the software, please contact the developer for permission via email.
-
-© 2025 Md Sameer Iqbal. All rights reserved.
