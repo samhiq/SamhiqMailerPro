@@ -7,7 +7,7 @@
 ## ✨ Features
 
 ✅ Modern and easy-to-use interface  
-✅ Send emails via Gmail, Yahoo, Outlook or custom SMTP  
+✅ Send emails via your Gmail, Yahoo, Outlook or custom SMTP  
 ✅ Automatically prompts email credentials on first use  
 ✅ Personalize messages using `{name}` in your content  
 ✅ Import recipient list directly from Excel (.xlsx)  
@@ -16,7 +16,7 @@
 ✅ Real-time progress bar during sending and downloading  
 ✅ Auto-update system — always stay up-to-date  
 ✅ Detailed log window with email-by-email feedback  
-✅ No installation or programming knowledge needed — ready to use!
+✅ No programming knowledge needed — ready to use!
 
 ---
 
@@ -36,7 +36,7 @@
    - On the **first run**, the app will ask you to enter:
      - Your **email address**
      - Your **app password** (do not use your main email password)
-   - These credentials are stored only on your local device for automatic use in future.
+   - These credentials are securely stored in a local config file and only asked once.
 
 3. **📊 Add Recipients**  
    - Option 1: Click **📁 Import Excel** and upload a `.xlsx` file with **Email** in column A and **Name** in column B.
@@ -75,16 +75,34 @@ Samhiq Mailer checks for updates automatically on launch.
 
 ---
 
-## 🔒 Privacy & Security
+## 🔐 Privacy & Security Notice
 
-Samhiq Mailer is designed with your privacy in mind. All operations are handled locally:
+This application requires your **email and app password** to send messages through your own SMTP server. These credentials are:
 
-- 🛡️ Your **email credentials** are **never sent to any external server**.
-- 🗂️ They are stored securely in a local file (`user_config.json`) for auto-login purposes only.
-- 📧 Your **emails, attachments, and recipient lists are processed locally** — nothing is uploaded or tracked.
+- Stored securely **only on your device** in a local file.
+- Never uploaded or shared online.
+- Used solely for the purpose of sending your emails.
 
-> ✅ Recommended: Use an **App Password**, not your main email password, for better security.  
-> For Gmail users: [Create an App Password here](https://myaccount.google.com/apppasswords) (requires 2-Step Verification).
+We value your privacy. Your data stays with you.
+
+---
+
+## ⚠️ Windows Defender SmartScreen Notice
+
+Since this app is **not digitally signed with a code-signing certificate**, Windows may show a warning like:
+
+> **"Windows protected your PC"**  
+> *Microsoft Defender SmartScreen prevented an unrecognized app from starting.*
+
+This does **not mean the file is unsafe** — it simply means the `.exe` is not signed by a known publisher.
+
+### ✅ Here's how to proceed:
+
+1. When you see the warning, click **More info**.
+2. Then click the **Run anyway** button.
+
+> 🔐 Once the app gains trust and more downloads, SmartScreen will stop flagging it automatically.  
+> 💡 You can also consider building trust by code-signing the `.exe` in the future (paid option).
 
 ---
 
