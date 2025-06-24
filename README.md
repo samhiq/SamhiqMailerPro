@@ -30,7 +30,7 @@
 👉 [Download SamhiqMailer.exe](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
 
 ### 2. 🗂️ Setup Folder  
-Create a folder named exactly:
+Create a folder named exactly SamhiqMailer:
 
 Then place the `SamhiqMailer.exe` file inside this folder.  
 ⚠️ This folder name is **required** so that the auto-update system works properly.
