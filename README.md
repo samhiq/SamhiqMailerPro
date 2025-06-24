@@ -7,7 +7,7 @@
 ## ✨ Features
 
 ✅ Modern and easy-to-use interface  
-✅ Send emails via your Gmail, Yahoo, Outlook or custom SMTP  
+✅ Send emails via Gmail, Yahoo, Outlook or custom SMTP  
 ✅ Automatically prompts email credentials on first use  
 ✅ Personalize messages using `{name}` in your content  
 ✅ Import recipient list directly from Excel (.xlsx)  
@@ -16,7 +16,7 @@
 ✅ Real-time progress bar during sending and downloading  
 ✅ Auto-update system — always stay up-to-date  
 ✅ Detailed log window with email-by-email feedback  
-✅ No programming knowledge needed — ready to use!
+✅ No installation or programming knowledge needed — ready to use!
 
 ---
 
@@ -36,7 +36,7 @@
    - On the **first run**, the app will ask you to enter:
      - Your **email address**
      - Your **app password** (do not use your main email password)
-   - These credentials are securely stored in a local config file and only asked once.
+   - These credentials are stored only on your local device for automatic use in future.
 
 3. **📊 Add Recipients**  
    - Option 1: Click **📁 Import Excel** and upload a `.xlsx` file with **Email** in column A and **Name** in column B.
@@ -75,11 +75,16 @@ Samhiq Mailer checks for updates automatically on launch.
 
 ---
 
-## 🧠 Notes & Tips
+## 🔒 Privacy & Security
 
-- **Use App Passwords**: For Gmail and other services, enable 2FA and use an app password — **not your main email password**.
-- **No installation required**: Just double-click to run.
-- **Windows only**: Currently available for Windows (.exe).
+Samhiq Mailer is designed with your privacy in mind. All operations are handled locally:
+
+- 🛡️ Your **email credentials** are **never sent to any external server**.
+- 🗂️ They are stored securely in a local file (`user_config.json`) for auto-login purposes only.
+- 📧 Your **emails, attachments, and recipient lists are processed locally** — nothing is uploaded or tracked.
+
+> ✅ Recommended: Use an **App Password**, not your main email password, for better security.  
+> For Gmail users: [Create an App Password here](https://myaccount.google.com/apppasswords) (requires 2-Step Verification).
 
 ---
 
