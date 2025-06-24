@@ -148,3 +148,15 @@ We’re happy to hear your ideas and support your use case.
 > 🇮🇳 Proudly developed in India.
 
 ---
+## 📄 License
+
+Samhiq Mailer — © Md Sameer Iqbal. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software, to use, copy, modify, and distribute it for personal or commercial purposes, subject to the following conditions:
+
+- The software is provided **"as is"**, without warranty of any kind.  
+- No liability is assumed by the developer for any damages arising in connection with the software.  
+- Any modified or redistributed versions must retain this license notice.  
+- If you require help with modifications or custom features, you're welcome to contact the developer
+[contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com).
+---
