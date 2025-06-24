@@ -18,7 +18,7 @@
 - 📎 Attach multiple files with a click  
 - 🔄 Retries failed emails up to 3 times  
 - 📊 Real-time progress bar and status log  
-- 🛠️ Built-in auto-update mechanism  
+- 🔧 Built-in auto-update mechanism  
 - 💼 No installation required — fully portable `.exe`
 
 ---
@@ -115,16 +115,14 @@ When you open `SamhiqMailer.exe` for the first time, Windows may show a warning 
 
 > **"Windows protected your PC"**
 
-This message appears because the app is **not digitally signed**, which is normal for independent or custom software distributed outside the Microsoft Store.
+This message appears because the file is **not digitally signed with a verified security certificate**. Windows shows this warning by default for apps that haven’t been certified through its publisher verification process.
 
-To run the application safely:
+To run the application:
 
 1. On the warning screen, click **More info**
 2. Then click **Run anyway**
 
-The application will start normally. You usually won’t see this warning again for the same file.
-
-> This is expected behavior for `.exe` files not signed by a verified publisher — it does **not** mean the app is unsafe.
+You usually won’t see this warning again for the same file after the first run.
 
 ---
 
