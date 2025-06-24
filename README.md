@@ -129,7 +129,7 @@ You usually won’t see this warning again for the same file after the first run
 ## 👤 Developer
 
 **Md Sameer Iqbal (Samhiq)**  
-📍 Bihar, India  
+📍 Simri Bakhtiyarpur, Saharsa, Bihar, India  
 📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
 🔗 [GitHub: @samhiq](https://github.com/samhiq)
 
@@ -140,17 +140,17 @@ You usually won’t see this warning again for the same file after the first run
 
 ## 💬 Feedback & Feature Requests
 
-If you'd like to suggest a feature, share feedback, or request improvements, feel free to reach out to us anytime.
+If you have any suggestions, feature requests, or feedback for improvement, you are welcome to contact us anytime.
 
-📧 Email: [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
-Your input is always welcome and appreciated.
+📧 Email: [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)
 
 ---
 
 ## 📄 License
 
-This software is free to use, share, and distribute.  
-✅ Commercial usage is allowed.  
-© 2025 Md Sameer Iqbal. All rights reserved.
+This software is free to use, share, and distribute for both personal and commercial purposes.  
+However, **modifying, customizing, or repackaging** the application is **not permitted without prior permission** from the developer.
 
----
+If you need to modify or customize any part of the software, please contact the developer for permission via email.
+
+© 2025 Md Sameer Iqbal. All rights reserved.
