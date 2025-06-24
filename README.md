@@ -1,47 +1,100 @@
 # 📬 Samhiq Mailer
 
-**Samhiq Mailer** is a powerful, easy-to-use desktop application for sending personalized bulk emails using your own SMTP credentials. It offers an elegant interface, built-in Excel import, and modern features for professionals and organizations.
-
-### ✨ Features
-
-✅ Clean and user-friendly design  
-✅ Send emails using your Gmail/Yahoo/Outlook SMTP credentials  
-✅ Import recipients from Excel files (.xlsx)  
-✅ Use HTML-styled templates with personalized `{name}` placeholders  
-✅ Add multiple attachments to emails  
-✅ Retry mechanism (up to 3 times) for failed deliveries  
-✅ Real-time progress bar and detailed email log  
-✅ Auto-update mechanism to ensure you're always using the latest version  
-✅ No programming or technical setup required
+**Samhiq Mailer** is a sleek and powerful desktop application for sending personalized bulk emails using your own SMTP credentials. It’s built for speed, simplicity, and reliability — with automatic updates, Excel import, HTML formatting, and real-time logging.
 
 ---
 
-### 📦 How to Use
+## ✨ Features
 
-1. Download the latest version:  
-   👉 [Download SamhiqMailer.exe](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
-
-2. Run the app (no installation needed).  
-3. Click "⚙️ Configure Email Settings" and enter your email + app password.  
-4. Import recipients using "📁 Import Excel" or enter manually.  
-5. Add a subject, message (use `{name}` for personalization), and optional attachments.  
-6. Click "🚀 Send Emails" and watch it work!
-
----
-
-### 🆕 Updates
-
-The tool checks for updates automatically on startup. You can also click "🆕 Check for Updates" anytime to get the latest version.
+✅ Modern and easy-to-use interface  
+✅ Send emails via your Gmail, Yahoo, Outlook or custom SMTP  
+✅ Automatically prompts email credentials on first use  
+✅ Personalize messages using `{name}` in your content  
+✅ Import recipient list directly from Excel (.xlsx)  
+✅ Attach multiple files to your emails  
+✅ Retry failed emails automatically (up to 3 times)  
+✅ Real-time progress bar during sending and downloading  
+✅ Auto-update system — always stay up-to-date  
+✅ Detailed log window with email-by-email feedback  
+✅ No programming knowledge needed — ready to use!
 
 ---
 
-### 👨‍💻 Developed by
+## 🚀 Getting Started
+
+1. **📥 Download the latest version**  
+   👉 [Click here to download SamhiqMailer.exe](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
+
+2. **📁 Folder Setup & First Use Instructions**  
+   - After downloading, **create a new folder named exactly:**
+     ```
+     SamhiqMailer
+     ```
+   - Move the downloaded `SamhiqMailer.exe` into this folder.  
+   - This folder name is **required** so that the auto-update system works correctly.
+   - Double-click the `.exe` to launch the app.
+   - On the **first run**, the app will ask you to enter:
+     - Your **email address**
+     - Your **app password** (do not use your main email password)
+   - These credentials are securely stored in a local config file and only asked once.
+
+3. **📊 Add Recipients**  
+   - Option 1: Click **📁 Import Excel** and upload a `.xlsx` file with **Email** in column A and **Name** in column B.
+   - Option 2: Manually enter a single recipient using the input fields.
+
+4. **📝 Compose Your Email**  
+   - Fill in the subject and message body.
+   - Use `{name}` in your message to auto-insert recipient names.
+
+5. **📎 Attach Files (optional)**  
+   - Click **📎 Add Attachment** to include one or more files with the email.
+
+6. **📤 Send**  
+   - Click **🚀 Send Emails** — the app will take care of the rest!
+
+---
+
+## 🔄 Auto Update Feature
+
+Samhiq Mailer checks for updates automatically on launch.
+
+- You’ll get a notification if a new version is available.
+- One click downloads the latest `.exe`, replaces the old one, and restarts the app.
+- Manual check is also available via the **🆕 Check for Updates** button.
+
+📂 Your data and configurations remain intact after updates.
+
+---
+
+## 📁 Excel Format Example
+
+| Email              | Name     |
+|--------------------|----------|
+| user@example.com   | John     |
+| jane@domain.com    | Jane     |
+
+---
+
+## 🧠 Notes & Tips
+
+- **Use App Passwords**: For Gmail and other services, enable 2FA and use an app password — **not your main email password**.
+- **No installation required**: Just double-click to run.
+- **Windows only**: Currently available for Windows (.exe).
+
+---
+
+## 👨‍💻 Developer Info
 
 **Md Sameer Iqbal (Samhiq)**  
 📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
-🌐 [https://github.com/samhiq](https://github.com/samhiq)
+🔗 [GitHub: samhiq](https://github.com/samhiq)
 
-> Proudly made in India 🇮🇳
+> 💡 Designed, developed and maintained with passion.  
+> 🇮🇳 Proudly made in India.
 
 ---
 
+## 📌 License
+
+This software is free to use and distribute. Commercial use is allowed.  
+© 2025 Md Sameer Iqbal (Samhiq)
