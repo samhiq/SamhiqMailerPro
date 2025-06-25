@@ -1,6 +1,11 @@
 {
   "notifications": [
     {
+      "title": "Samhiq Mailer v1.9 Released",
+      "message": "🎉 Version 1.9 is live! It includes a brand new Notifications tab and a Feedback tab to directly reach the developer from the app.",
+      "date": "2025-06-26"
+    },
+    {
       "title": "New Feature: Feedback Tab",
       "message": "Users can now send feedback with mobile numbers directly from the app.",
       "date": "2025-06-25"
