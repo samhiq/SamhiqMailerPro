@@ -1,10 +1,9 @@
-[
+{
+  "notifications": [
     {
-        "title": "Welcome to Samhiq",
-        "message": "You can now receive updates here."
-    },
-    {
-        "title": "Update v1.9 coming soon",
-        "message": "New features are on the way including Notification & Feedback tab!"
+      "title": "Update Released",
+      "message": "Version 1.8 is now live.",
+      "date": "2025-06-25"
     }
-]
+  ]
+}
