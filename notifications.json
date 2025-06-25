@@ -1,9 +1,14 @@
 {
   "notifications": [
     {
-      "title": "Update Released",
-      "message": "Version 1.8 is now live.",
+      "title": "New Feature: Feedback Tab",
+      "message": "Users can now send feedback with mobile numbers directly from the app.",
       "date": "2025-06-25"
+    },
+    {
+      "title": "Performance Improved",
+      "message": "Email sending logic is now more efficient with retry logic.",
+      "date": "2025-06-24"
     }
   ]
 }
