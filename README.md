@@ -1,4 +1,4 @@
-# 📬 Samhiq Mailer Pro 
+# 📬 Samhiq Mailer Pro (SMTP)
 
 **Samhiq Mailer** is a professional desktop application for sending personalized bulk emails using your own SMTP credentials. Designed for simplicity and power, it supports Excel-based recipient lists, attachments, smart retry logic, real-time delivery logs, and automatic updates — all packed in a portable `.exe` with no installation required.
 
