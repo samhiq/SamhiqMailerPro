@@ -11,7 +11,7 @@
 ## ✨ Features
 
 - 🖥️ Clean and intuitive user interface  
-- 📧 Works with Gmail, Outlook, Yahoo, Zoho, and other SMTP providers  
+- 📧 Works with Gmail SMTP  
 - 🔐 Secure one-time login (stored locally on your device)  
 - 📂 Excel import for bulk sending and name personalization  
 - 📝 Use `{name}` tags to dynamically personalize each message  
