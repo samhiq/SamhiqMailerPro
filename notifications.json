@@ -1,9 +1,24 @@
 {
   "notifications": [
     {
-      "title": "🎉 Samhiq Mailer v2.1 Released!",
-      "message": "We’re excited to announce the release of version 1.10 of Samhiq Mailer! 🚀 This update includes:\n\n• Brand new Notifications tab with improved design\n• A dedicated Feedback tab to send suggestions directly\n• Refined email template with a more professional look\n• More features under review based on user feedback\n\nThank you for your valuable feedback",
-      "date": "27-06-2025"
+      "date": "25-06-2025",
+      "title": "📢 Scheduled Maintenance Notice",
+      "message": "Samhiq Mailer services will undergo maintenance on 28-06-2025 from 2:00 AM to 5:00 AM IST. Please avoid sending emails during this time."
+    },
+    {
+      "date": "26-06-2025",
+      "title": "🎉 Version 2.2 Released",
+      "message": "We’re excited to announce the release of Samhiq Mailer v2.2! This version includes a polished UI, enhanced notification tab, emoji-rich HTML message support, dynamic tags, and a structured feedback form. Enjoy a smoother and more professional email experience."
+    },
+    {
+      "date": "26-06-2025",
+      "title": "🚀 Delivery System Optimized",
+      "message": "We've optimized the email delivery engine with detailed retry logging, visual progress bars, and real-time feedback during sending. Performance and reliability have been significantly improved."
+    },
+    {
+      "date": "26-06-2025",
+      "title": "🛠 Upcoming in Samhiq Mailer v2.3",
+      "message": "Exciting features coming soon in v2.3: ⏰ Email Scheduling (Send Later), 📊 Open Tracking with Dashboard, 📉 Bounce Detection with Smart Retry Stats, and 🎨 Theme Customization for the full interface."
     }
   ]
 }
