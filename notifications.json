@@ -1,6 +1,21 @@
 {
   "notifications": [
     {
+      "date": "29-06-2025",
+      "title": "🛠 Sneak Peek: Samhiq Mailer v2.6 is Coming",
+      "message": "Get ready for v2.6 — bringing 🔐 Advanced SMTP Testing, 📁 Drag & Drop File Attachments, 📤 Auto-Save Drafts, 🎯 Advanced Targeting Filters, and 🧩 Plugin Support for custom extensions. A smarter, more powerful mailer experience is on the way!"
+    },
+    {
+      "date": "29-06-2025",
+      "title": "📢 Scheduled Maintenance on 05 July",
+      "message": "Samhiq Mailer services will undergo scheduled maintenance on 05-07-2025 from 1:00 AM to 4:00 AM IST. Please refrain from sending emails during this period to avoid interruptions."
+    },
+    {
+      "date": "29-06-2025",
+      "title": "🧠 Smarter Emails, Bolder Control",
+      "message": "Experience the upgraded Samhiq Mailer Pro Desktop with 15+ refined features: HTML formatting, smart tags, bulk import, real-time logs, attachments, feedback system, and live notifications — all in one elegant tool. Built for performance, powered by innovation."
+    },
+    {
       "date": "25-06-2025",
       "title": "📢 Scheduled Maintenance Notice",
       "message": "Samhiq Mailer services will undergo maintenance on 28-06-2025 from 2:00 AM to 5:00 AM IST. Please avoid sending emails during this time."
