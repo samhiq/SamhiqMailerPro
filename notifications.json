@@ -5,20 +5,5 @@
       "title": "🚀 Samhiq Mailer v2.7 Released",
       "message": "Full PyQt5 version is now live! Enjoy new UI, attachment support, feedback system, logs, and much more."
     },
-    {
-      "date": "10-07-2025",
-      "title": "🔁 Auto Updater Enabled",
-      "message": "The app now supports auto-update. New versions will be downloaded and installed seamlessly with one click."
-    },
-    {
-      "date": "08-07-2025",
-      "title": "📎 Attachments Feature Added",
-      "message": "Now attach multiple files to your bulk emails easily using the 📎 button on the Mailer tab."
-    },
-    {
-      "date": "01-07-2025",
-      "title": "🔔 Notification System Live",
-      "message": "You can now receive important updates and changelogs directly in the app under the Notifications tab."
-    }
   ]
 }
