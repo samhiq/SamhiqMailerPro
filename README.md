@@ -1,162 +1,178 @@
 # 📬 Samhiq Mailer Pro (SMTP)
 
-**Samhiq Mailer** is a professional desktop application for sending personalized bulk emails using your own SMTP credentials. Designed for simplicity and power, it supports Excel-based recipient lists, attachments, smart retry logic, real-time delivery logs, and automatic updates — all packed in a portable `.exe` with no installation required.
+**Samhiq Mailer Pro** is a powerful and intuitive desktop application that lets you send personalized bulk emails using your own SMTP credentials — with real-time logging, smart retry logic, and a user-friendly UI.  
+Whether you're managing newsletters, announcements, or customer communication, Samhiq Mailer is your go-to solution.
+
+---
 
 <p align="center">
   <img src="SamhiqMailer.png" alt="Samhiq Mailer Screenshot" width="700">
 </p>
 
----
-
-## ✨ Features
-
-- 🖥️ Clean and intuitive user interface  
-- 📧 Works with Gmail SMTP  
-- 🔐 Secure one-time login (stored locally on your device)  
-- 📂 Excel import for bulk sending and name personalization  
-- 📝 Use `{name}` tags to dynamically personalize each message  
-- 📎 Attach multiple files with a click  
-- 🔄 Retries failed emails up to 3 times  
-- 📊 Real-time progress bar and status log  
-- 🔧 Built-in auto-update mechanism  
-- 💼 No installation required — fully portable `.exe`
+<p align="center">
+  <img src="https://img.shields.io/badge/SMTP-Gmail%20Supported-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Python-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-red?style=flat-square" />
+</p>
 
 ---
 
-## 🚀 Getting Started
+## ✨ Core Highlights
 
-### 1️⃣ Download
-
-➡️ [Download SamhiqMailer.exe](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
-
----
-
-### 2️⃣ Folder Setup
-
-1. Create a folder named **`SamhiqMailer`**  
-2. Place the `.exe` file inside this folder  
-
-> ⚠️ The folder **must** be named `SamhiqMailer` exactly for updates to work correctly.
+- ✅ **Clean, powerful UI** — designed for productivity and ease of use  
+- 📧 **Gmail SMTP Ready** — compatible with App Passwords  
+- 📂 **Excel Integration** — import recipient lists with ease  
+- 📝 **Dynamic Personalization** — use `{name}` to personalize each email  
+- 📎 **Multi-file Attachments** — attach documents, images, or any file type  
+- 🔄 **Auto Retry System** — retries failed emails automatically  
+- 📊 **Real-Time Progress Logs** — see delivery status as it happens  
+- 🔧 **Auto-Updater** — keeps you on the latest version, hassle-free  
+- 💼 **Fully Portable** — no installation required, single `.exe` app  
 
 ---
 
-### 3️⃣ First Launch
+## 🚀 Installation Guide
 
-- Double-click `SamhiqMailer.exe`  
-- Enter your:
-  - 📧 Email address  
-  - 🔐 SMTP App Password
+### Option 1 — 📦 Download `.exe`
 
-> 🔑 [How to create a Gmail App Password](https://support.google.com/accounts/answer/185833)  
-> You only need to enter credentials once — they’re saved securely on your system.
+➡️ [Download Latest Version](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
+
+**Setup Instructions:**
+
+1. Create a folder named `SamhiqMailer`  
+2. Move the downloaded `SamhiqMailer.exe` into this folder  
+3. Double-click to launch  
+
+> ⚠️ The folder name must be `SamhiqMailer` for automatic updates to work correctly.
+
+### Option 2 — 🐍 Install via Python (pip)
+
+```bash
+pip install samhiqmailer
+samhiqmailer
+```
 
 ---
 
-## 📤 How to Send Emails
+## 🛠️ First Launch Setup
 
-### 🧾 Step 1: Import Recipients
+On first run, the app will ask for your:
 
-Click **📁 Import Excel** and choose a `.xlsx` file with this format:
+- 📧 Gmail email address  
+- 🔐 Gmail App Password (not your actual email password)
+
+> Your login info is stored securely in a local file: `user_config.json`.  
+> No data is ever uploaded or shared.
+
+[📖 How to generate a Gmail App Password](https://support.google.com/accounts/answer/185833)
+
+---
+
+## 📤 Sending Emails (Workflow)
+
+### Step 1 — Import Excel File
+
+Your Excel file should look like this:
 
 | Email              | Name     |
 |--------------------|----------|
 | user@example.com   | John     |
 | jane@domain.com    | Jane     |
 
----
-
-### ✍️ Step 2: Compose Message
-
-- Write your **Subject** and **Message Body**  
-- Use `{name}` in the body to personalize messages
-
-📌 Example:  
-> Hello {name}, your subscription has been successfully activated.
+Click **📁 Import Excel** and select your `.xlsx` file.
 
 ---
 
-### 📎 Step 3: Add Attachments (Optional)
+### Step 2 — Compose Message
 
-Click **Add Attachment** to include one or more files.
+Use `{name}` for personalization:
+
+```
+Subject: Welcome, {name}!
+Body: Hello {name}, thank you for joining us!
+```
 
 ---
 
-### 🚀 Step 4: Send Emails
+### Step 3 — Add Attachments (Optional)
 
-Click **Send Emails** — emails are sent one-by-one, with:
+Click **Add Attachment** and select one or more files.
 
-- Retry logic for failures  
-- Real-time progress tracking  
-- Detailed logs for transparency
+---
+
+### Step 4 — Send Emails
+
+Click **Send Emails**. The app will:
+
+- Send each email one by one  
+- Retry failures automatically (up to 3 times)  
+- Show progress in the log panel  
 
 ---
 
 ## 🔄 Auto-Update System
 
-- ✔️ Automatically checks for updates on every launch  
-- 📥 Downloads and installs new versions without affecting your data  
-- ⚙️ You can also manually check via the **Check for Updates** button
-
-Your settings and login info remain untouched during updates.
+- ✅ Automatically checks for updates when the app starts  
+- ⬇️ Downloads and installs silently  
+- 🔐 Keeps your data and config intact  
 
 ---
 
-## 🔐 Privacy
+## 🛡️ Windows Defender SmartScreen Notice
 
-- ✅ All credentials are saved locally in `user_config.json`  
-- ❌ No external data is collected, stored, or synced  
-- 💻 Operates fully offline except for email sending and update checks
+When launching `SamhiqMailer.exe` for the first time, Windows may show this message:
 
----
+> **"Windows protected your PC"**  
+> *Microsoft Defender SmartScreen prevented an unrecognized app from starting.*
 
-## ⚠️ Windows Defender / SmartScreen Notice
+### 💡 Why This Appears
 
-When you open `SamhiqMailer.exe` for the first time, Windows may show a warning like:
+This happens because the app is **not digitally signed** with a commercial certificate.  
+Digital signing is usually done by large corporations — Samhiq Mailer is an independent tool.
 
-> **"Windows protected your PC"**
+### ✅ Trust & Safety
 
-This message appears because the file is **not digitally signed with a verified security certificate**. Windows shows this warning by default for apps that haven’t been certified through its publisher verification process.
+- The `.exe` is 100% safe if downloaded from the **official GitHub link**  
+- It connects only to **Gmail SMTP** and **GitHub for updates**  
+- Your credentials and data are stored **only on your device**
 
-To run the application:
+### ✔️ How to Proceed
 
-1. On the warning screen, click **More info**
-2. Then click **Run anyway**
+1. Click **More info**  
+2. Click **Run anyway**  
 
-You usually won’t see this warning again for the same file after the first run.
-
----
-
-## 🛠️ Need Help with Modifications?
-
-You are free to use, modify, and distribute Samhiq Mailer.  
-If you would like **assistance with customization** or want to request **new features**, feel free to contact us:
-
-📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)
-
-We’re happy to hear your ideas and support your use case.
+You will not see this message again after the first launch.
 
 ---
 
-## 👤 Developer
+## 🔐 Privacy & Security
+
+- 🔒 Credentials are stored locally  
+- 🧱 No data leaves your system except to Gmail's SMTP server  
+- 📴 Fully offline-capable except for email and updates  
+
+Your privacy is our priority.
+
+---
+
+## 👤 Developer Info
 
 **Md Sameer Iqbal (Samhiq)**  
-📍 Bihar, India  
+📍 Simri Bakhtiyarpur, Bihar, India  
 📧 [contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com)  
 🔗 [GitHub: @samhiq](https://github.com/samhiq)
 
-> Built with precision. Designed for simplicity.  
-> 🇮🇳 Proudly developed in India.
+> Designed with care. Built for the community. Proudly developed in 🇮🇳 India.
 
 ---
+
 ## 📄 License
 
+```
 Samhiq Mailer — © Md Sameer Iqbal. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software, to use, copy, modify, and distribute it for personal or commercial purposes, subject to the following conditions:
-
-- The software is provided **"as is"**, without warranty of any kind.  
-- No liability is assumed by the developer for any damages arising in connection with the software.  
-- Any modified or redistributed versions must retain this license notice.  
-- If you require help with modifications or custom features, you're welcome to contact the developer
-[contact.samhiq@gmail.com](mailto:contact.samhiq@gmail.com).
----
+Use and modify freely for personal or business use.
+Redistribution allowed only with this license included.
+Software is provided "as-is" without warranty of any kind.
+```
