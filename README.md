@@ -36,7 +36,7 @@ Whether you're managing newsletters, announcements, or customer communication, S
 
 ### Option 1 — 📦 Download `.exe`
 
-➡️ [Download Latest Version](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
+➡️ [Download Latest Version EXE](https://github.com/samhiq/SamhiqMailer/releases/latest/download/SamhiqMailer.exe)
 
 **Setup Instructions:**
 
