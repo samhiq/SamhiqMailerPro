@@ -1,6 +1,6 @@
 # 📬 Samhiq Mailer Pro (SMTP)
 
-**Samhiq Mailer Pro** is a powerful and intuitive desktop application that lets you send personalized bulk emails using your own SMTP credentials — with real-time logging, smart retry logic, and a user-friendly UI.  
+**Samhiq Mailer Pro** is a powerful and intuitive desktop application that lets you send personalized bulk emails using your own SMTP credentials with real-time logging, smart retry logic, and a user-friendly UI.  
 Whether you're managing newsletters, announcements, or customer communication, Samhiq Mailer is your go-to solution.
 
 ---
@@ -46,7 +46,7 @@ Whether you're managing newsletters, announcements, or customer communication, S
 
 > ⚠️ The folder name must be `SamhiqMailer` for automatic updates to work correctly.
 
-### Option 2 — 🐍 Install via Python (pip)
+### Option 2 — <img src="https://img.shields.io/badge/Python-Install-blue?logo=python&logoColor=white&style=flat-square" alt="Python pip badge" height="20"/>
 
 ```bash
 pip install samhiqmailer
