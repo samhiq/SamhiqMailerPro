@@ -10,9 +10,9 @@ Whether you're managing newsletters, announcements, or customer communication, S
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SMTP-Gmail%20Supported-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/SMTP%20Supported-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Python-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux %20%7C%20 Python-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/License-MIT-red?style=flat-square" />
 </p>
 
