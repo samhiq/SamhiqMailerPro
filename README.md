@@ -21,7 +21,7 @@ Whether you're managing newsletters, announcements, or customer communication, S
 ## ✨ Core Highlights
 
 - ✅ **Clean, powerful UI** — designed for productivity and ease of use  
-- 📧 **Gmail SMTP Ready** — compatible with App Passwords  
+- 📧 **SMTP Ready** — compatible with App Passwords (SMTP SERVICES) 
 - 📂 **Excel Integration** — import recipient lists with ease  
 - 📝 **Dynamic Personalization** — use `{name}` to personalize each email  
 - 📎 **Multi-file Attachments** — attach documents, images, or any file type  
