@@ -46,7 +46,7 @@ Whether you're managing newsletters, announcements, or customer communication, S
 
 > ⚠️ The folder name must be `SamhiqMailer` for automatic updates to work correctly.
 
-### Option 2 — <img src="https://img.shields.io/badge/Python-Install-blue?logo=python&logoColor=white&style=flat-square" alt="Python pip badge" height="20"/>
+### Option 2 — <img src="https://img.shields.io/badge/Python(PyPI)-Install-blue?logo=python&logoColor=white&style=flat-square" alt="Python pip badge" height="20"/>
 
 ```bash
 pip install samhiqmailer
