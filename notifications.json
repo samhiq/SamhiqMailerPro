@@ -14,6 +14,11 @@
       "date": "01-08-2025",
       "title": "🔐 Security Upgrade",
       "message": "Enhanced TLS/SSL support for safer email delivery."
+    },
+    {
+      "date": "02-09-2025",
+      "title": "📣 Feedback & Bug Reports",
+      "message": "Introducing an in-app feedback system! Report issues, suggest features, and help us improve SamhiqMailerPro."
     }
   ]
 }
