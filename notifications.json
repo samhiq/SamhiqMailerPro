@@ -1,11 +1,6 @@
 {
   "notifications": [
     {
-      "date": "02-09-2025",
-      "title": "⚡ Performance Boost",
-      "message": "Mailer speed optimized by 35%. Bulk emails now send smoother with less CPU usage."
-    },
-    {
       "date": "28-08-2025",
       "title": "📎 Smart Attachments",
       "message": "Now auto-detects unsupported file types and warns you before sending."
