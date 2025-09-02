@@ -1,9 +1,24 @@
 {
   "notifications": [
     {
-      "date": "12-07-2025",
-      "title": "🚀 Samhiq Mailer v2.9 Released",
-      "message": "Full PyQt5 version is now live! Enjoy new UI, attachment support, feedback system, logs, and much more."
+      "date": "02-09-2025",
+      "title": "⚡ Performance Boost",
+      "message": "Mailer speed optimized by 35%. Bulk emails now send smoother with less CPU usage."
+    },
+    {
+      "date": "28-08-2025",
+      "title": "📎 Smart Attachments",
+      "message": "Now auto-detects unsupported file types and warns you before sending."
+    },
+    {
+      "date": "10-08-2025",
+      "title": "📝 Drafts Feature",
+      "message": "Save unfinished emails as drafts and continue anytime."
+    },
+    {
+      "date": "01-08-2025",
+      "title": "🔐 Security Upgrade",
+      "message": "Enhanced TLS/SSL support for safer email delivery."
     }
   ]
 }
